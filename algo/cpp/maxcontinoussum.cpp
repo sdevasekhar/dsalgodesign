@@ -6,14 +6,14 @@
 
 using namespace std;
 
-void maxContSum(const vector<int> v);
+void maxContSum(const vector<int> &);
 int main()
 {
 	vector<int> v = { -2, -5, 6, -2, -3, 1, 5, -6 };
 	maxContSum(v);
 	return 0;
 }
-void maxContSum(const vector<int> v)
+void maxContSum(const vector<int> &v)
 {
 	int maxSofar = v[0];	
 	int cmax = v[0];	
